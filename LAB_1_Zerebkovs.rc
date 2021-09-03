@@ -1,0 +1,150 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 328, 280
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 11, "Microsoft YaHei", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,250,50,14
+    LTEXT           "Comp Name",IDC_STATIC,14,31,55,8
+    LTEXT           "",IDC_COMPNAME,103,27,175,16,SS_SUNKEN | WS_BORDER
+    LTEXT           "Version",IDC_STATIC,14,81,24,8
+    LTEXT           "",IDC_VERSION,103,79,175,16,SS_SUNKEN | WS_BORDER
+    LTEXT           "Username",IDC_STATIC,14,56,33,8
+    LTEXT           "",IDC_USERNAME,103,54,175,16,SS_SUNKEN | WS_BORDER
+    LTEXT           "Total RAM, MB",IDC_STATIC,14,106,63,8
+    LTEXT           "",IDC_TOTALRAM,103,105,175,16,SS_SUNKEN | WS_BORDER
+    GROUPBOX        "",IDC_STATIC,7,13,300,225
+    LTEXT           "Free RAM, MB",IDC_STATIC,14,131,46,8
+    LTEXT           "",IDC_FREERAM,103,127,175,16,SS_SUNKEN | WS_BORDER
+    LTEXT           "Percent of memory in use",IDC_STATIC,14,156,88,8
+    LTEXT           "",IDC_TIMESINCE,103,203,175,16,SS_SUNKEN | WS_BORDER
+    LTEXT           "Current Datetime",IDC_STATIC,14,181,56,8
+    LTEXT           "",IDC_MEMORYINUSE,103,153,175,16,SS_SUNKEN | WS_BORDER
+    LTEXT           "Time since power on",IDC_STATIC,14,206,74,8
+    LTEXT           "",IDC_DATETIME,103,180,175,16,SS_SUNKEN | WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 321
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 273
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINDIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    100, 100, 0, 0,
+    0, 0, 0, 0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON2               ICON                    "C:\\Users\\Tom\\Downloads\\system_config_services.ico"
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
